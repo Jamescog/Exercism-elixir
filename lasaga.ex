@@ -5,7 +5,7 @@ defmodule Lasagna do
   end
 
   def remaining_minutes_in_oven(min) do
-    40 - min
+    expected_minutes_in_oven() - min
   end
 
   def preparation_time_in_minutes(num) do
